@@ -28,7 +28,6 @@ func fn2(n int) int {
 
 /*
 	函数递归调用
-	闭包
 */
 func main() {
 	sum := 0
