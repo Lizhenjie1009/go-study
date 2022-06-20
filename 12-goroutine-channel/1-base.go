@@ -43,7 +43,7 @@ var wait sync.WaitGroup
 func test() { // 协程50毫秒执行一次，共10次
 	for i := 0; i < 10; i++ {
 		fmt.Println("协程 test golang", i)
-		time.Sleep(time.Millisecond * 100)
+		time.Sleep(time.Millisecond * 50)
 	}
 	wait.Done() // 协程执行完，协程计数器减1
 }

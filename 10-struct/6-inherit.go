@@ -19,7 +19,7 @@ func (a Animal) run() {
 // 子结构体
 type Dog struct {
 	Age    int
-	Animal // 结构体嵌套 -- 继承
+	Animal // 匿名结构体嵌套 -- 继承
 }
 
 func (d Dog) speak() {

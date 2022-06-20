@@ -14,6 +14,7 @@ import (
 */
 
 func main() {
+	// 其他类型转string
 	var (
 		i int     = 20
 		f float64 = 12.456

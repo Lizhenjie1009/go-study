@@ -41,7 +41,7 @@ func main() {
 	}
 	fmt.Println()
 
-	// 修改字符串的字符 先转为rune或byte
+	// 修改字符串的字符 先转为rune类型的切片或byte类型的切片
 	str4 := "big"
 	byteStr := []byte(str4)
 	byteStr[0] = 'p'
