@@ -35,7 +35,7 @@ func main() {
 	p2 := &Phone{
 		Name: "小米手机",
 	}
-	var p3 Usber = p2 // 值类型传参 -- 实例化后的指针类型结构体实现Usber接口
+	var p3 Usber = p2 // 指针类型传参 -- 实例化后的指针类型结构体实现Usber接口
 	p3.start()
 
 	c := &Camera{

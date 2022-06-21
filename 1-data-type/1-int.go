@@ -7,10 +7,12 @@ import (
 
 /*
 	基本数据类型
-		整形、浮点型、布尔型、字符串
+		整形(int)、浮点型(float64)、布尔型(bool)、字符串(string)
 
 	复合数据类型
-		数组、切片、结构体、函数、map、通道(channel)、接口等
+		数组(array)、切片(slice)、结构体(struct)、函数(func)、map、通道(chan)、接口(interface)等
+
+	指针(ptr)
 */
 
 // 整形: 有符号整型，无符号整型
